@@ -33,3 +33,6 @@ cacheSolve <- function(x, ...) {
   x$setInv(inv)
   return(inv)   ## Returns a matrix that is the inverse of 'x'
 }
+
+#Note: These functions are tested with various square matrix input seems to be working fine
+
